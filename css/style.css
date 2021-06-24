@@ -1,0 +1,88 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.background {
+    background-color: rgba(66, 233, 190, 0.6);
+}
+
+.background-profile {
+    background-color: rgba(66, 233, 190, 0.6);
+}
+
+.background-cards {
+    background-color: rgba(255, 255, 255);
+}
+
+.text-logo {
+    font-size: 0;
+}
+
+.icon {
+    border: 2px solid #6CEDE8;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding: 3px;
+    color: #6CEDE8;
+}
+
+.margin {
+    margin-left: 10px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.card-personalizado {
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn-health {
+    width: 100%;
+    height: 48px;
+    margin: auto;
+    background: #49D6D9;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-health-off {
+    width: 100%;
+    height: 48px;
+    margin: auto;
+    background: #9c9c9c;
+    color: white;
+    border-radius: 5px;
+}
+
+
+@media screen and (min-width: 992px) {
+.background {
+    background-image: url("https://miro.medium.com/max/567/1*n0WYK5zyv7xKDZ4kaTfsGA.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-color{
+    background-color: rgba(66, 233, 190, 0.6);
+    background-position: cover;
+    margin-bottom: 0;
+}
+
+.background-profile {
+    background-color: white;
+}
+
+.background-cards {
+    background-color: rgba(66, 233, 190, 0.3);
+}
+
+.card-personalizado {
+    background-color: rgba(66, 233, 190, 0.6);
+}
+
+}
